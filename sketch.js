@@ -125,5 +125,5 @@ function mouseReleased(){
   sling1.fly();
 }
 function keyPressed(){ 
-  if(keyCode === 32){ slingShot.attach(this.polygon); } 
+  if(keyCode === 32){ slingShot.attach(this.ball); } 
 }
